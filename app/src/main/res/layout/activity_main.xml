@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:paddingTop="?attr/actionBarSize">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="28dp"/>
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/imgLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAllBooks"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/see_all_books"
+        app:layout_constraintTop_toBottomOf="@id/txtTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.65"
+        android:layout_marginTop="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCurrentlyReading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/currently_reading"
+        app:layout_constraintTop_toBottomOf="@id/btnAllBooks"
+        app:layout_constraintStart_toStartOf="@id/btnAllBooks"
+        app:layout_constraintEnd_toEndOf="@id/btnAllBooks"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAlreadyRead"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/already_read"
+        app:layout_constraintTop_toBottomOf="@id/btnCurrentlyReading"
+        app:layout_constraintStart_toStartOf="@id/btnAllBooks"
+        app:layout_constraintEnd_toEndOf="@id/btnAllBooks"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnWantToRead"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/wishlist"
+        app:layout_constraintTop_toBottomOf="@id/btnAlreadyRead"
+        app:layout_constraintStart_toStartOf="@id/btnAllBooks"
+        app:layout_constraintEnd_toEndOf="@id/btnAllBooks"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFavorite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/favorites"
+        app:layout_constraintTop_toBottomOf="@id/btnWantToRead"
+        app:layout_constraintStart_toStartOf="@id/btnAllBooks"
+        app:layout_constraintEnd_toEndOf="@id/btnAllBooks"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAbout"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        app:layout_constraintTop_toBottomOf="@id/btnFavorite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="14dp"/>
+
+    <TextView
+        android:id="@+id/txtFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/footer"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="12dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

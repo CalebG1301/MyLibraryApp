@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Library</string>
+
+    <string name="see_all_books">See All Books</string>
+    <string name="currently_reading">Currently Reading Books</string>
+    <string name="already_read">Already Read Books</string>
+    <string name="wishlist">Your Wishlist</string>
+    <string name="favorites">See Your Favorites</string>
+    <string name="about">ABOUT</string>
+    <string name="footer">Developed by Meisam at meCode.org</string>
+</resources>
