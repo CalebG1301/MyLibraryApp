@@ -10,11 +10,21 @@
 
 ---
 
+# 📱 Application Demo
+
+A brief demonstration of **MyLibraryApp** highlighting the application's user interface and core functionality.
+
+<p align="center">
+  <img src="assets/MyLibraryAppDemo.gif" alt="MyLibraryApp Demo" width="600">
+</p>
+
+---
+
 # 📖 Overview
 
-MyLibrary5 is an Android application developed in Java that helps users organize their personal reading collection. Users can browse books, save favorites, track books they are currently reading, manage a want-to-read list, and archive books they have already finished.
+MyLibraryApp is an Android application developed in Java that helps users organize and manage their personal book collection. Users can browse books, save favorites, track books they are currently reading, maintain a want-to-read list, and archive books they have already finished.
 
-The goal of this project was to strengthen my understanding of Android application development while gaining hands-on experience with object-oriented programming, persistent data storage, and user interface design.
+The goal of this project was to strengthen my understanding of Android development while gaining hands-on experience with object-oriented programming, persistent local data storage, and Android user interface design.
 
 ---
 
@@ -85,24 +95,26 @@ Data is managed through reusable utility classes and stored locally using Shared
 # 💡 Challenges & Solutions
 
 ### Challenge
+
 Android's SharedPreferences only supports storing primitive data types, making it impossible to directly save Java objects.
 
 ### Solution
+
 Implemented Google's Gson library to serialize Book objects into JSON before saving them and deserialize them when loading application data.
 
----
-
 ### Challenge
+
 Managing multiple reading lists while keeping the data synchronized across several activities.
 
 ### Solution
+
 Created reusable utility methods that handle list updates and data persistence while preventing duplicate entries and maintaining consistency throughout the application.
 
 ---
 
 # 📚 What I Learned
 
-Developing MyLibrary5 significantly strengthened my Android development skills and reinforced software engineering best practices.
+Developing MyLibraryApp significantly strengthened my Android development skills and reinforced software engineering best practices.
 
 Throughout this project I gained experience with:
 
@@ -148,49 +160,26 @@ Some enhancements I would like to implement include:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/MyLibrary5.git
+git clone https://github.com/CalebG1301/MyLibraryApp.git
 ```
 
 Open the project in Android Studio, allow Gradle to synchronize, connect an Android device or emulator, and click **Run**.
 
 ---
 
-# 📸 Screenshots
-
-> **Coming Soon**
-
-- Home Screen
-- Book Details
-- Favorites
-- Want to Read
-- Already Read
-- Currently Reading
-
----
-
 # 📈 Skills Showcased
 
-✔ Java Programming
-
-✔ Android Development
-
-✔ Object-Oriented Programming
-
-✔ RecyclerView
-
-✔ SharedPreferences
-
-✔ Gson
-
-✔ XML Layout Design
-
-✔ Git & GitHub
-
-✔ Software Architecture
-
-✔ Mobile Application Development
-
-✔ Debugging & Problem Solving
+- Java Programming
+- Android Development
+- Object-Oriented Programming
+- RecyclerView
+- SharedPreferences
+- Gson
+- XML Layout Design
+- Git & GitHub
+- Software Architecture
+- Mobile Application Development
+- Debugging & Problem Solving
 
 ---
 
@@ -198,12 +187,12 @@ Open the project in Android Studio, allow Gradle to synchronize, connect an Andr
 
 Hello! I'm **Caleb Gandee**, an Application Development graduate passionate about building software that solves real-world problems.
 
-This project represents one of my Android development projects and demonstrates my ability to design, develop, debug, and maintain a complete mobile application using Java and Android Studio.
+This project demonstrates my ability to design, develop, debug, and maintain a complete Android application using Java and Android Studio. It highlights my experience with object-oriented programming, local data persistence, and building intuitive mobile user interfaces.
 
-I'm currently seeking an **entry-level Software Developer** position where I can continue building impactful software, collaborate with experienced developers, and continue growing as an engineer.
+I'm currently seeking an **entry-level Software Developer** position where I can contribute to a collaborative engineering team while continuing to expand my technical skills and build impactful software.
 
 ---
 
-## ⭐ If you enjoyed this project...
+## ⭐ Thank You for Visiting!
 
-Feel free to star the repository and explore my other projects as I continue expanding my software development portfolio.
+Thank you for taking the time to explore **MyLibraryApp**. Feel free to browse the source code and explore my other repositories as I continue building my software development portfolio.
